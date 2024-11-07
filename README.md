@@ -27,3 +27,13 @@ This program will help psychologists or educators track child development in dif
 1. **Main Program**: `Main.py` allows the user to enter scores, create evaluations for each area, generate a detailed report, and save it to a file.
 
 This project showcases advanced Python techniques and serves as an educational tool for child development psychology.
+
+## Additional information
+
+To write a commit message and get out of VI, follow these steps:
+
+press i (i for insert)
+write your merge message
+press esc (escape)
+write :wq (write & quit)
+then press enter
