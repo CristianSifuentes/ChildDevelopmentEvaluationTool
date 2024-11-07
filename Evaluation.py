@@ -17,11 +17,15 @@ class CognitiveDevelopment(DevelopmentArea):
         return f"Social Evaluation: {self.score}/100"
 
 class SocialDevelopment(DevelopmentArea):
-    pass
+    def evaluate(self):
+        # Evaluation based on social interaction and communication
+        return f"Social Evaluation: {self.score}/100"
 
 
 class EmotionalDevelopment(DevelopmentArea):
-    pass
+    def evaluate(self):
+        return super().evaluate()
 
 class PhysicalDevelopment(DevelopmentArea):
-    pass
+    def evaluate(self):
+        return super().evaluate()
